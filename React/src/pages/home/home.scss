@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_page {
+    width: 100%;
+    min-height: 100vh;
+    .home_page_body {
+        width: 100%;
+        height: calc(100vh - ($navH + $supNavH + $footerH));
+        min-height: calc(100vh - ($navH +  $supNavH +  $footerH));
+        display: flex;
+        justify-content: center;
+        .content {
+            width: 100%;
+            height: 100%;
+            max-width: $maxW;
+        }
+    }
+}       
